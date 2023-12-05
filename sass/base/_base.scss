@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+html,
+body {
+  font-family: var(--font-main);
+  color: var(--main-text-color);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.none {
+  display: none;
+}
+
+.find-btn {
+  padding: 9px 21px;
+
+  color: var(--button-text-color);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  border-radius: 6px;
+  border: 1px solid #cf6f49;
+  background: #cf6f49;
+}
+
+.section-motto {
+  display: inline-block;
+
+  padding: 4px 12px;
+
+  line-height: 1.5;
+
+  border-radius: 32px;
+  background: #e7e8e3;
+}

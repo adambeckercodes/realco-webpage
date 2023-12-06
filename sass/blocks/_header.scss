@@ -7,6 +7,10 @@
   margin: 0 auto;
 
   background-color: var(--header-bg-color);
+
+  &--closed {
+    display: none;
+  }
 }
 
 .header__top-link {

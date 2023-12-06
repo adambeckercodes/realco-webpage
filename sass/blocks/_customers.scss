@@ -1,0 +1,22 @@
+.customers {
+  & .container {
+    padding-top: 160px;
+    padding-bottom: 160px;
+
+    text-align: center;
+  }
+
+  & .section-title {
+    margin-bottom: 26px;
+  }
+}
+
+.customers__grid {
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
+  gap: 33px;
+
+  padding-top: 80px;
+
+  text-align: left;
+}

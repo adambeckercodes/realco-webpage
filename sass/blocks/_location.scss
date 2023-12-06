@@ -1,0 +1,18 @@
+.location {
+  padding: 33px;
+
+  text-align: left;
+
+  border-radius: 16px;
+  border: 1px solid var(--ui-border-color);
+  background: var(--main-bg-color);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.location__title {
+  margin-bottom: 12px;
+
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+}

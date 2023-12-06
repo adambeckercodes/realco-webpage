@@ -1,0 +1,47 @@
+.property {
+  max-width: 405px;
+
+  text-align: left;
+
+  border-radius: 0 0 12px 12px;
+  background: #fff;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.property__img {
+}
+.property__content {
+  padding: 24px;
+}
+
+.property__title {
+  margin-bottom: 3px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.property__price {
+  display: block;
+  margin-bottom: 16px;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.property__location {
+  display: block;
+  margin-bottom: 16px;
+  padding-left: 26px;
+
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+
+  background-image: url("./../img/icons/location-pin.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.property__options {
+}

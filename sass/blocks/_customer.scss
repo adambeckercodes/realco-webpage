@@ -1,0 +1,37 @@
+.customer {
+  width: calc((100% - 33px * var(--offsets)) - (var(--offsets) + 1));
+
+  padding: 33px;
+
+  border-radius: 16px;
+  border: 1px solid var(--ui-border-color);
+  background-color: var(--main-bg-color);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+}
+
+.customer__raiting {
+  margin-bottom: 27px;
+}
+
+.customer__text {
+  margin-bottom: 29px;
+
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.customer__wrapper {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.customer__name {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.customer__position {
+  color: var(--secondary-text-color);
+line-height: 1.5;
+}

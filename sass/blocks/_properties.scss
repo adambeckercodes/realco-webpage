@@ -1,0 +1,44 @@
+.properties {
+  background-color: var(--secondary-bg-color);
+
+  & .container {
+    position: relative;
+
+    padding-top: 128px;
+    padding-bottom: 160px;
+
+    text-align: center;
+  }
+
+  & .container::before {
+    content: url("./../img/bg-elements/element-3.svg");
+
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  & .container::after {
+    content: url("./../img/bg-elements/element-4.svg");
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  & .section-motto {
+    margin-bottom: 21px;
+  }
+
+  & .explore__btn-wrapper {
+    justify-content: center;
+  }
+}
+
+.properties__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 32px;
+
+  padding: 80px 0;
+}

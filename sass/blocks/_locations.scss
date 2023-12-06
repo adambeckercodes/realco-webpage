@@ -1,0 +1,25 @@
+.locations {
+background-color: var(--secondary-bg-color);
+
+  & .container {
+    padding-bottom: 361px;
+
+    text-align: center;
+  }
+
+  & .explore__btn-wrapper {
+    justify-content: center;
+  }
+
+  & .section-title {
+    margin-bottom: 25px;
+  }
+}
+
+.locations__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  gap: 16px;
+
+  padding: 80px 0;
+}
